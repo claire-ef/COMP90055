@@ -1,4 +1,4 @@
-## COMP90055 Research Project: A steganographic performance comparison of the C4S algorithm with selected SSIS algorithms
+## Research Project: A steganographic performance comparison of the C4S algorithm with selected SSIS algorithms
 
 This repository contains the code for COMP90055 Research Project. Three Spread Spectrum Image Steganography (SSIS)
 algorithms are implemented:
