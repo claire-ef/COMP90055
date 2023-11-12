@@ -1,16 +1,16 @@
 ## Research Project: A steganographic performance comparison of the C4S algorithm with selected SSIS algorithms
 
 This repository contains the code for COMP90055 Research Project. Three Spread Spectrum Image Steganography (SSIS)
-algorithms are implemented:
+algorithms are implemented (src/):
 * ExtendedC4S.java [[1]](#1)
 * KumarSS.m [[2]](#2)
 * NaseemSS.java [[3]](#3)
 
 The evaluation framework proposed by Eze et al. [[4]](#4) is used to evaluate and compare the three algorithms:
-* code for computing PSNR/SSIM/BER can be found in Measurement.java
-* biomarker extractions are implemented in featureGeneration.m
-* biomarker related criteria are computed and SVM models are fit in biomarkers_and_SVM.ipynb
-* attacks on watermarked images are performed in performAttacks.m
+* code for computing PSNR/SSIM/BER can be found in src/Measurement.java
+* biomarker extractions are implemented in src/featureGeneration.m
+* biomarker related criteria are computed and SVM models are fit in src/biomarkers_and_SVM.ipynb
+* attacks on watermarked images are performed in src/performAttacks.m
 
 The data used to run the experiments is included in the data folder and is retrieved from https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia. The original dataset has over 5000 chest x-ray images. A subset of 1000 images is used in this project of which 500 images are normal and 500 images are diagnosed with pneumonia.
 
