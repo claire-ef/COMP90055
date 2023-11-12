@@ -1,3 +1,4 @@
+% make plots for demonstration of parameter tuning
 % ====== Kumar parameter tuning
 bbp = [0.0002, 0.0004, 0.0006, 0.0008, 0.001, 0.0015, 0.002];
 k= [0.1, 0.2, 0.3, 0.5, 0.8, 1];

@@ -1,3 +1,4 @@
+% reads all images and converts RGB images to grayscale
 normalFiles = dir('data/NORMAL/*.jpeg');
 pneumoniaFiles = dir('data/PNEUMONIA/*.jpeg');
 

@@ -1,3 +1,7 @@
+/**
+ * This file contains all the utility functions.
+ */
+
 import javax.imageio.ImageIO;
 import javax.swing.*;
 import javax.swing.border.LineBorder;

@@ -1,3 +1,4 @@
+% performs various attacks on images
 normalFiles = dir('data/NORMAL/*.jpeg');
 pneumoniaFiles = dir('data/PNEUMONIA/*.jpeg');
 

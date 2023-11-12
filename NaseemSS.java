@@ -150,7 +150,7 @@ public class NaseemSS {
         // step 5: spread binary watermark by cr
         int[] spreadedLogo = spreadSequence(watermark, cr);
 
-        // step 8
+        // step 8:
         // set LSB's of embedding position to zero
         for (int i=0; i < s.length; i++) {
             int value = roniPixels.get(s[i]);
