@@ -12,6 +12,10 @@ The evaluation framework proposed by Eze et al. [[4]](#4) is used to evaluate an
 * biomarker related criteria are computed and SVM models are fit in biomarkers_and_SVM.ipynb
 * attacks on watermarked images are performed in performAttacks.m
 
+The data used to run the experiments is included in the data folder and is retrieved from https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia. The original dataset has over 5000 chest x-ray images. A subset of 1000 images is used in this project of which 500 images are normal and 500 images are diagnosed with pneumonia.
+
+The final report of this project can be found at https://www.overleaf.com/read/thdhyfqpkmnd.
+
 ### References
 <a id="1">[1]</a>
 Peter U Eze, Udaya Parampalli, Robin J Evans, and Dongxi Liu.
